@@ -1,4 +1,4 @@
-package org.agoncal.fascicle.quarkus.book.client;
+package org.agoncal.fascicle.quarkus.book;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -12,7 +12,6 @@ import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response.Status;
 
-import org.agoncal.fascicle.quarkus.book.Database;
 import org.agoncal.fascicle.quarkus.book.data.Book;
 import org.hamcrest.core.Is;
 import org.junit.jupiter.api.MethodOrderer;
